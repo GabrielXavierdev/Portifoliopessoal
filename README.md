@@ -50,24 +50,6 @@ interativa.
 ```
     projetoPortifolio/projetoPortifolio/templates/index.html
 
-3.  O site abrirá automaticamente no navegador.
-
-## 🌍 Como Fazer Deploy
-
-Este projeto pode ser hospedado gratuitamente em:
-
--   GitHub Pages\
--   Vercel\
--   Netlify
-
-## 📫 Contato
-
-Inclua suas redes e informações profissionais:
-
--   LinkedIn:\
--   GitHub:\
--   E-mail:
-
 ## 📄 Licença
 
 Este projeto é para uso pessoal e educacional.\
