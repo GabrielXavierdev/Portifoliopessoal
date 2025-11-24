@@ -1,4 +1,4 @@
-# 🌐 Portfólio Pessoal -- Desenvolvedor Front-End
+# 🌐 Portfólio Pessoal
 
 Um portfólio moderno, responsivo e minimalista desenvolvido com
 **HTML**, **CSS** e **JavaScript**, criado para apresentar projetos,
