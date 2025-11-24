@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="link-navegacao">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="link-navegacao">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="link-navegacao">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="link-navegacao">Contatos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="../img/perfil.png" alt="Foto de Gabriel Xavier" class="foto-perfil">
+        <h1>Gabriel Xavier</h1>
+        <p class="subtitulo-cabecalho">Desenvolvedor Full Stack</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Olá! Sou Gabriel Xavier, tenho 20 anos e sou de Recife (PE). Sou apaixonado por tecnologia e desenvolvimento de software, sempre em busca de aprender novas ferramentas e aprimorar minhas habilidades técnicas.
+
+Atualmente, curso Análise e Desenvolvimento de Sistemas na Faculdade de Ciências Humanas Esuda e gosto de transformar ideias em soluções práticas e eficientes por meio da programação. 🚀</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="sobre">
+        <h2 class="projetos-titulo">Meus projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="../img/livrariaHorizonte.png" alt="Projeto 1" class="projetos-imagem">
+                <div class="projetos-subcaixa">
+                    <h3 class="info-projeto">Livraria Horizonte</h3>
+                    <p class="paragrafo-projeto">Reformulação de um site de e-commerce de uma livraria ficticia que estava com dificuldades em venda devido a sua falta de design UX/UI.</p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="../img/ProjetoGestaodeOficina.png" alt="Projeto 2" class="projetos-imagem">
+                <div class="projetos-subcaixa">
+                    <h3 class="info-projeto">Sistema de Gestão de oficina</h3>
+                    <p class="paragrafo-projeto">Sistema de gestão para oficinas com ferramentas de armazenamento de dados, gerenciamento de clientes e veiculos.</p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="../img/ProjetoPortifolio.png" alt="Projeto 3" class="projetos-imagem">
+                <div class="projetos-subcaixa">
+                    <h3 class="info-projeto">Portífolio pessoal</h3>
+                    <p class="paragrafo-projeto">Portífolio pessoal com intuito de dá mais visibilidade as minhas habilidades como programador e mostrar meus projetos.</p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em contato</h2>
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome Completo" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea placeholder="Digite sua mensagem" class="campo-form" id="mensagem" rows="6"></textarea>
+            </div>
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+        </form>
+    </section>
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
